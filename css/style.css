@@ -1,0 +1,278 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+html {
+  margin: auto;
+  width: 1440px;
+}
+html ul li,
+html ol li {
+  list-style: none;
+}
+html a {
+  text-decoration: none;
+}
+html body {
+  min-width: 900px;
+  overflow-x: hidden;
+}
+
+.header__section {
+  width: 1600px;
+  margin: auto;
+  background-color: 70;
+}
+
+.container {
+  width: 1200px;
+}
+
+.navbar__content {
+  background-color: #fff;
+  margin: 0px 200px;
+  padding: 15px;
+  max-width: 1200px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__content .navbar .navbar__lists {
+  display: flex;
+  gap: 40px;
+}
+.navbar__content .navbar__icons {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__content .icon {
+  display: flex;
+  gap: 15px;
+}
+.navbar__content .call_me {
+  display: flex;
+  gap: 7px;
+  color: var(--, #3d4a39);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.navbar__content .call_me .phone {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.hero {
+  background-image: url(/image/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.svg);
+}
+.hero .container {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%);
+}
+.hero .container .hero__title {
+  margin-left: 569px;
+  align-items: center;
+  padding-top: 120px;
+  width: 346px;
+  color: var(--, #fff);
+  text-align: center;
+  font-family: Lato;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.hero .container .hero__subtitle {
+  margin-top: 20px;
+  margin-left: 510px;
+  width: 540px;
+  color: var(--, #fff);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.hero .hero__link {
+  display: flex;
+  width: 260px;
+  padding: 22px 56px;
+  align-items: flex-start;
+  gap: 10px;
+  background: #ae7b3c;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+  margin-top: 50px;
+  margin-left: 650px;
+}
+.hero .hero__link span {
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.hero__line {
+  margin-top: 120px;
+  width: 1200px;
+  height: 1px;
+  opacity: 0.4;
+  background: #fff;
+  margin-left: 200px;
+}
+
+.hero__images {
+  margin-left: 200px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.hero__images .sifr {
+  margin-bottom: 45px;
+}
+.hero__images .arrows {
+  display: flex;
+  margin-bottom: 60px;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 8px;
+  }
+  html body {
+    max-width: 1000px;
+  }
+  html .header__section {
+    background-size: cover;
+    width: 900px;
+  }
+  html .container {
+    max-width: 900px;
+  }
+  .navbar__content {
+    width: 700px;
+    background-color: #fff;
+    max-width: 1000px;
+    min-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar__content .navbar__logo {
+    width: 122px;
+    height: 53px;
+    flex-shrink: 0;
+  }
+  .navbar__content .navbar__lists {
+    width: 457px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .navbar .navbar__lists {
+    gap: 5px;
+  }
+  .navbar__icons {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+  }
+  .icon {
+    display: flex;
+    gap: 5px;
+  }
+  .hero {
+    background-image: url(/image/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.svg);
+  }
+  .hero .container {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%);
+  }
+  .hero__title {
+    align-items: center;
+    padding-top: 120px;
+    width: 200px;
+    color: var(--, #fff);
+    text-align: center;
+    font-family: Lato;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .hero__subtitle {
+    margin-top: 20px;
+    width: 540px;
+    color: var(--, #fff);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+  }
+}
+.hero__link {
+  display: flex;
+  width: 260px;
+  padding: 11px 23px;
+  align-items: flex-start;
+  gap: 10px;
+  background: #ae7b3c;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+  margin-top: 50px;
+  margin-left: 650px;
+}
+
+.hero__link span {
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.hero__line {
+  width: 1200px;
+  height: 1px;
+  opacity: 0.4;
+  background: #fff;
+  margin-left: 200px;
+}
+
+.hero__images {
+  margin-left: 100px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.hero__images .sifr {
+  margin-bottom: 45px;
+}
+.hero__images .arrows {
+  display: flex;
+  margin-bottom: 60px;
+  gap: 25px;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
